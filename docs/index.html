@@ -43,7 +43,7 @@
     .filter-btn:hover, .filter-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
     .status-filter { display: flex; gap: 6px; }
     .status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; }
-    .status-dot.alive { background: var(--green); }
+    .status-dot.active { background: var(--green); }
     .status-dot.dead { background: var(--red); }
     .status-dot.unknown { background: var(--amber); }
 
@@ -63,7 +63,7 @@
     .card-name { font-weight: 600; font-size: 1em; }
     .card-badges { display: flex; gap: 6px; align-items: center; }
     .badge { font-size: 0.72em; padding: 2px 8px; border-radius: 4px; font-weight: 500; }
-    .badge.alive { background: rgba(16,185,129,0.15); color: var(--green); }
+    .badge.active { background: rgba(16,185,129,0.15); color: var(--green); }
     .badge.dead { background: rgba(239,68,68,0.15); color: var(--red); }
     .badge.unknown { background: rgba(245,158,11,0.15); color: var(--amber); }
     .badge.rating { background: rgba(59,130,246,0.15); color: var(--primary); }
@@ -122,7 +122,7 @@
     <input type="text" id="search" placeholder="Search resources..." autocomplete="off">
     <div class="status-filter">
       <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="alive"><span class="status-dot alive"></span>Active</button>
+      <button class="filter-btn" data-filter="active"><span class="status-dot active"></span>Active</button>
       <button class="filter-btn" data-filter="dead"><span class="status-dot dead"></span>Dead</button>
       <button class="filter-btn" data-filter="unknown"><span class="status-dot unknown"></span>Unknown</button>
     </div>
@@ -174,7 +174,7 @@ function updateHeroStats() {
   allData.categories.forEach(cat => {
     cat.resources.forEach(r => {
       total++;
-      if (getStatus(r.name) === 'alive') alive++;
+      if (getStatus(r.name) === 'active') alive++;
     });
   });
   document.getElementById('stat-total').textContent = total;
