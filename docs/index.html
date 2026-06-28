@@ -139,8 +139,8 @@
 </footer>
 
 <script>
-const DATA_URL = 'data/resources.json';
-const STATUS_URL = 'data/status.json';
+const DATA_URL = 'resources.json';
+const STATUS_URL = 'status.json';
 
 let allData = null;
 let statusData = null;
@@ -160,7 +160,7 @@ async function loadData() {
     updateHeroStats();
   } catch (e) {
     console.error('Failed to load:', e);
-    document.getElementById('content').innerHTML = '<p style="text-align:center;color:#94a3b8;padding:40px">Failed to load data. <a href="data/resources.json" style="color:#3b82f6">View raw JSON</a></p>';
+    document.getElementById('content').innerHTML = '<p style="text-align:center;color:#94a3b8;padding:40px">Failed to load data. <a href="resources.json" style="color:#3b82f6">View raw JSON</a></p>';
   }
 }
 
