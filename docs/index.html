@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Resources | 全球免费资源聚合</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a; --surface: #1e293b; --surface2: #334155;
+      --border: #475569; --text: #f1f5f9; --text-secondary: #94a3b8;
+      --primary: #3b82f6; --green: #10b981; --red: #ef4444; --amber: #f59e0b;
+      --cyan: #06b6d4; --purple: #8b5cf6; --radius: 12px;
+      --font: 'Inter', 'Noto Sans SC', sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); background: var(--bg); color: var(--text); line-height: 1.65; }
+
+    /* Nav */
+    .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 900; background: rgba(15,23,42,0.9); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); height: 56px; }
+    .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 100%; }
+    .nav-brand { font-weight: 700; font-size: 1.05em; color: var(--primary); }
+    .nav-links { display: flex; gap: 24px; }
+    .nav-links a { text-decoration: none; color: var(--text-secondary); font-size: 0.88em; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--text); }
+
+    /* Hero */
+    .hero { padding: 100px 0 60px; text-align: center; background: radial-gradient(ellipse at 50% 0%, rgba(59,130,246,0.12) 0%, transparent 60%); }
+    .hero h1 { font-size: 2.4em; font-weight: 700; margin-bottom: 12px; }
+    .hero h1 span { background: linear-gradient(120deg, #3b82f6, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero-sub { color: var(--text-secondary); font-size: 1em; margin-bottom: 24px; }
+    .hero-stats { display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; }
+    .hero-stat .num { font-size: 1.6em; font-weight: 700; }
+    .hero-stat .label { font-size: 0.78em; color: var(--text-secondary); }
+
+    /* Search & Filter */
+    .controls { padding: 24px 0; position: sticky; top: 56px; z-index: 100; background: var(--bg); border-bottom: 1px solid var(--border); }
+    .controls-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    #search { flex: 1; min-width: 200px; padding: 10px 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); font-size: 0.9em; outline: none; font-family: var(--font); }
+    #search:focus { border-color: var(--primary); }
+    .filter-btn { padding: 8px 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text-secondary); cursor: pointer; font-size: 0.85em; font-family: var(--font); transition: all 0.2s; }
+    .filter-btn:hover, .filter-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .status-filter { display: flex; gap: 6px; }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; }
+    .status-dot.alive { background: var(--green); }
+    .status-dot.dead { background: var(--red); }
+    .status-dot.unknown { background: var(--amber); }
+
+    /* Content */
+    .content { max-width: 1200px; margin: 0 auto; padding: 32px 24px 64px; }
+    .category { margin-bottom: 48px; }
+    .category-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+    .category-icon { font-size: 1.4em; }
+    .category-name { font-size: 1.2em; font-weight: 700; }
+    .category-count { font-size: 0.85em; color: var(--text-secondary); }
+
+    .resources-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+    .resource-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; transition: all 0.2s; position: relative; }
+    .resource-card:hover { border-color: var(--primary); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
+    .resource-card.dead { opacity: 0.5; }
+    .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+    .card-name { font-weight: 600; font-size: 1em; }
+    .card-badges { display: flex; gap: 6px; align-items: center; }
+    .badge { font-size: 0.72em; padding: 2px 8px; border-radius: 4px; font-weight: 500; }
+    .badge.alive { background: rgba(16,185,129,0.15); color: var(--green); }
+    .badge.dead { background: rgba(239,68,68,0.15); color: var(--red); }
+    .badge.unknown { background: rgba(245,158,11,0.15); color: var(--amber); }
+    .badge.rating { background: rgba(59,130,246,0.15); color: var(--primary); }
+    .card-desc { font-size: 0.85em; color: var(--text-secondary); margin-bottom: 8px; line-height: 1.5; }
+    .card-free { font-size: 0.82em; color: var(--green); margin-bottom: 6px; }
+    .card-limit { font-size: 0.8em; color: var(--text-secondary); margin-bottom: 10px; }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 10px; }
+    .card-tag { font-size: 0.72em; padding: 2px 8px; background: var(--surface2); border-radius: 4px; color: var(--text-secondary); }
+    .card-link { font-size: 0.82em; color: var(--primary); text-decoration: none; }
+    .card-link:hover { text-decoration: underline; }
+
+    /* Footer */
+    .footer { text-align: center; padding: 32px 24px; color: var(--text-secondary); font-size: 0.85em; border-top: 1px solid var(--border); }
+    .footer a { color: var(--primary); text-decoration: none; }
+
+    /* Loading */
+    .loading { text-align: center; padding: 60px 0; color: var(--text-secondary); }
+    .loading-spinner { display: inline-block; width: 32px; height: 32px; border: 3px solid var(--border); border-top-color: var(--primary); border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 12px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 1.6em; }
+      .resources-grid { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <div class="nav-brand">🎁 Free Resources</div>
+    <div class="nav-links">
+      <a href="#gpu-compute">GPU</a>
+      <a href="#llm-api">LLM API</a>
+      <a href="#local-llm">Local</a>
+      <a href="#vps">VPS</a>
+      <a href="#dev-tools">Tools</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>Global <span>Free Resources</span></h1>
+  <p class="hero-sub">GPU · LLM API · Local Models · VPS · Dev Tools — Curated & Verified Weekly</p>
+  <div class="hero-stats" id="hero-stats">
+    <div class="hero-stat"><div class="num" id="stat-total">—</div><div class="label">Resources</div></div>
+    <div class="hero-stat"><div class="num" id="stat-alive">—</div><div class="label">Active</div></div>
+    <div class="hero-stat"><div class="num" id="stat-cats">—</div><div class="label">Categories</div></div>
+    <div class="hero-stat"><div class="num" id="stat-updated">—</div><div class="label">Last Check</div></div>
+  </div>
+</section>
+
+<section class="controls">
+  <div class="controls-inner">
+    <input type="text" id="search" placeholder="Search resources..." autocomplete="off">
+    <div class="status-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="alive"><span class="status-dot alive"></span>Active</button>
+      <button class="filter-btn" data-filter="dead"><span class="status-dot dead"></span>Dead</button>
+      <button class="filter-btn" data-filter="unknown"><span class="status-dot unknown"></span>Unknown</button>
+    </div>
+  </div>
+</section>
+
+<main class="content" id="content">
+  <div class="loading"><div class="loading-spinner"></div><p>Loading resources...</p></div>
+</main>
+
+<footer class="footer">
+  <p>🎁 Free Resources Aggregator · Auto-verified weekly via GitHub Actions</p>
+  <p style="margin-top:4px"><a href="https://github.com/caozuohua/free-resources">github.com/caozuohua/free-resources</a></p>
+</footer>
+
+<script>
+const DATA_URL = 'data/resources.json';
+const STATUS_URL = 'data/status.json';
+
+let allData = null;
+let statusData = null;
+let currentFilter = 'all';
+let currentSearch = '';
+
+async function loadData() {
+  try {
+    const [resJson, resStatus] = await Promise.all([
+      fetch(DATA_URL).then(r => r.json()),
+      fetch(STATUS_URL).then(r => r.json()).catch(() => null)
+    ]);
+
+    allData = resJson;
+    statusData = resStatus;
+    render();
+    updateHeroStats();
+  } catch (e) {
+    console.error('Failed to load:', e);
+    document.getElementById('content').innerHTML = '<p style="text-align:center;color:#94a3b8;padding:40px">Failed to load data. <a href="data/resources.json" style="color:#3b82f6">View raw JSON</a></p>';
+  }
+}
+
+function getStatus(name) {
+  if (!statusData || !statusData.results) return 'unknown';
+  return statusData.results[name]?.status || 'unknown';
+}
+
+function updateHeroStats() {
+  let total = 0, alive = 0;
+  allData.categories.forEach(cat => {
+    cat.resources.forEach(r => {
+      total++;
+      if (getStatus(r.name) === 'alive') alive++;
+    });
+  });
+  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-alive').textContent = alive;
+  document.getElementById('stat-cats').textContent = allData.categories.length;
+  document.getElementById('stat-updated').textContent = statusData ? statusData.generated_at?.slice(0,10) : 'N/A';
+}
+
+function render() {
+  const content = document.getElementById('content');
+  let html = '';
+
+  allData.categories.forEach(cat => {
+    const filtered = cat.resources.filter(r => {
+      if (currentFilter !== 'all' && getStatus(r.name) !== currentFilter) return false;
+      if (currentSearch) {
+        const q = currentSearch.toLowerCase();
+        return (r.name || '').toLowerCase().includes(q) ||
+               (r.description || '').toLowerCase().includes(q) ||
+               (r.tags || []).some(t => t.toLowerCase().includes(q));
+      }
+      return true;
+    });
+
+    if (filtered.length === 0) return;
+
+    html += `<div class="category" id="${cat.id}">`;
+    html += `<div class="category-header">`;
+    html += `<span class="category-icon">${cat.icon || '📦'}</span>`;
+    html += `<span class="category-name">${cat.nameZh || cat.name}</span>`;
+    html += `<span class="category-count">(${filtered.length})</span>`;
+    html += `</div><div class="resources-grid">`;
+
+    filtered.forEach(r => {
+      const status = getStatus(r.name);
+      const stars = '⭐'.repeat(parseInt(r.rating) || 0);
+      html += `<div class="resource-card ${status}">`;
+      html += `<div class="card-top">`;
+      html += `<span class="card-name">${r.name}</span>`;
+      html += `<div class="card-badges">`;
+      html += `<span class="badge ${status}">${status}</span>`;
+      if (r.rating) html += `<span class="badge rating">${stars}</span>`;
+      html += `</div></div>`;
+      if (r.description) html += `<p class="card-desc">${r.description}</p>`;
+      if (r.free_tier) html += `<p class="card-free">🎁 ${r.free_tier}</p>`;
+      if (r.limitations) html += `<p class="card-limit">⚠️ ${r.limitations}</p>`;
+      if (r.tags && r.tags.length) {
+        html += `<div class="card-tags">${r.tags.map(t => `<span class="card-tag">${t}</span>`).join('')}</div>`;
+      }
+      if (r.url) html += `<a class="card-link" href="${r.url}" target="_blank" rel="noopener">Visit →</a>`;
+      html += `</div>`;
+    });
+
+    html += `</div></div>`;
+  });
+
+  content.innerHTML = html || '<p style="text-align:center;color:#94a3b8;padding:40px">No resources match your filter.</p>';
+}
+
+// Events
+document.getElementById('search').addEventListener('input', e => {
+  currentSearch = e.target.value.trim();
+  render();
+});
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    render();
+  });
+});
+
+loadData();
+</script>
+</body>
+</html>

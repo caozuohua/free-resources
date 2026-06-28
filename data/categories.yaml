@@ -1,0 +1,30 @@
+categories:
+  - id: gpu-compute
+    name: GPU Compute
+    name_zh: GPU 算力
+    icon: 🖥️
+    description: Free GPU resources for ML training and inference
+
+  - id: llm-api
+    name: LLM API
+    name_zh: LLM API 额度
+    icon: 🤖
+    description: Free LLM API credits and tiers from providers worldwide
+
+  - id: local-llm
+    name: Local LLM
+    name_zh: 本地大模型
+    icon: 💻
+    description: Open-source tools and engines to run LLMs locally
+
+  - id: vps
+    name: VPS / Cloud
+    name_zh: VPS / 云服务器
+    icon: ☁️
+    description: Cloud provider free tiers with GPU or generous credits
+
+  - id: dev-tools
+    name: Developer Tools
+    name_zh: 开发工具
+    icon: 🔧
+    description: Free development platforms, notebooks, and coding environments

@@ -1,0 +1,893 @@
+categories:
+  - id: gpu-compute
+    name: GPU Compute
+    name_zh: GPU 算力
+    resources:
+      - name: Google Colab
+        url: https://colab.research.google.com
+        description: Free T4 GPU notebook environment, no credit card required
+        free_tier: "T4 GPU (16GB VRAM), 12hr/session, unlimited sessions with fair-use quota"
+        limitations: "No guarantee of GPU availability during peak hours; not suitable for long training"
+        rating: 5
+        tags: [gpu, notebook, no-credit-card, python]
+        status: active
+
+      - name: Kaggle Notebooks
+        url: https://kaggle.com
+        description: Free GPU notebooks with weekly quota, great for learning and experiments
+        free_tier: "T4 GPU 30hr/week, TPU v3-8 20hr/week"
+        limitations: "Weekly reset; no background running; must interact every 90 minutes"
+        rating: 5
+        tags: [gpu, notebook, no-credit-card, python, tpu]
+        status: active
+
+      - name: Hugging Face Spaces
+        url: https://huggingface.co/spaces
+        description: Deploy ML demos and apps with free GPU option
+        free_tier: "T4 GPU (16GB VRAM) via Spaces GPU sponsorship program"
+        limitations: "GPU requires application/approval; sleeps when idle; not for continuous training"
+        rating: 4
+        tags: [gpu, deployment, no-credit-card, demo]
+        status: active
+
+      - name: Lightning AI Studio
+        url: https://lightning.ai
+        description: PyTorch Lightning integrated cloud IDE with free GPU
+        free_tier: "T4 GPU, ~20-50 hours/month free; extra credits for new users"
+        limitations: "Monthly quota; does not roll over"
+        rating: 4
+        tags: [gpu, notebook, no-credit-card, pytorch]
+        status: active
+
+      - name: Google Colab Pro
+        url: https://colab.research.google.com/signup
+        description: Paid Colab tier with A100 priority access
+        free_tier: "A100 (40GB VRAM) priority, ~100 compute units/month (~$50-100 of A100 time)"
+        limitations: "$10/month subscription; resets monthly"
+        rating: 5
+        tags: [gpu, notebook, paid-tier, a100]
+        status: active
+
+      - name: Google Colab Pro+
+        url: https://colab.research.google.com/signup
+        description: Premium Colab with background execution and more A100 time
+        free_tier: "A100 (40GB) priority, ~500 compute units/month, background execution"
+        limitations: "$50/month; background runs max 24 hours"
+        rating: 4
+        tags: [gpu, notebook, paid-tier, a100]
+        status: active
+
+      - name: Google Cloud Vertex AI
+        url: https://cloud.google.com/vertex-ai
+        description: GCP's ML platform with generous new-user credits
+        free_tier: "$300 credits for 90 days; T4/A100/L4/H100 GPUs available"
+        limitations: "90-day expiry; requires credit card; must monitor usage"
+        rating: 5
+        tags: [gpu, cloud, credit-card-required, a100, h100]
+        status: active
+
+      - name: RunPod Community Cloud
+        url: https://runpod.io
+        description: Community-shared GPU cloud with free starter credits
+        free_tier: "$5-10 free credits for new users; community GPUs (RTX 3090-A6000)"
+        limitations: "Community GPUs can be preempted; stability varies"
+        rating: 3
+        tags: [gpu, cloud, community, no-credit-card]
+        status: active
+
+      - name: Modal
+        url: https://modal.com
+        description: Serverless GPU compute platform with free monthly credits
+        free_tier: "$5/month free credits for 3 months; T4/L4/A100 GPUs"
+        limitations: "Limited credits; expires after 3 months"
+        rating: 4
+        tags: [gpu, serverless, no-credit-card, python]
+        status: active
+
+      - name: Lambda Cloud
+        url: https://lambdalabs.com/service/gpu-cloud
+        description: Dedicated GPU cloud instances with promotional credits
+        free_tier: "$5-10 promotional credits (limited-time offers)"
+        limitations: "Promotional credits not always available; expensive after credits"
+        rating: 3
+        tags: [gpu, cloud, credit-card-required]
+        status: active
+
+      - name: Vast.ai
+        url: https://vast.ai
+        description: Community GPU marketplace with competitive pricing
+        free_tier: "$5-10 new user credits (limited-time)"
+        limitations: "Used/community GPUs; reliability varies; price fluctuations"
+        rating: 3
+        tags: [gpu, marketplace, credit-card-required]
+        status: active
+
+      - name: TPU Research Cloud
+        url: https://sites.research.google/trc/
+        description: Google's free TPU access for academic researchers
+        free_tier: "TPU v3-8 Pod (~$5-10K equivalent compute)"
+        limitations: "Academic application required; strict approval; TPU only (no CUDA)"
+        rating: 4
+        tags: [tpu, academic, no-credit-card, research]
+        status: active
+
+      - name: AWS Activate / AWS Educate
+        url: https://aws.amazon.com/activate
+        description: AWS cloud credits for startups and students
+        free_tier: "$100-200 Activate credits; $30-100 Educate credits; T4/A10G/A100 GPUs"
+        limitations: "1-year expiry; requires credit card and verification"
+        rating: 4
+        tags: [gpu, cloud, credit-card-required, aws]
+        status: active
+
+      - name: Azure for Students / Azure Free Account
+        url: https://azure.microsoft.com/free
+        description: Microsoft Azure free tier with GPU VM options
+        free_tier: "$200 credits for 30 days; students get $100 free (no credit card)"
+        limitations: "30-day limit for free tier; GPU quota requires request"
+        rating: 3
+        tags: [gpu, cloud, credit-card-required, azure]
+        status: active
+
+      - name: Gradient by Paperspace
+        url: https://www.digitalocean.com/products/paperspace
+        description: DigitalOcean's Paperspace with free starter credits
+        free_tier: "$5-10 new user credits; P4000/A100/A5000 GPUs"
+        limitations: "Limited credits; requires credit card"
+        rating: 3
+        tags: [gpu, cloud, credit-card-required]
+        status: active
+
+      - name: Noteable
+        url: https://noteable.io
+        description: Collaborative notebook platform with free tier
+        free_tier: "Free tier includes limited GPU hours; T4 GPU"
+        limitations: "Limited free GPU time"
+        rating: 3
+        tags: [gpu, notebook, no-credit-card]
+        status: active
+
+      - name: Deepnote
+        url: https://deepnote.com
+        description: Collaborative data science notebooks with GPU access
+        free_tier: "Free tier includes limited GPU; T4 (requires application)"
+        limitations: "GPU access limited on free tier"
+        rating: 3
+        tags: [gpu, notebook, no-credit-card, collaboration]
+        status: active
+
+      - name: Saturn Cloud
+        url: https://saturncloud.io
+        description: Cloud data science platform with free tier
+        free_tier: "Free tier includes limited CPU/GPU resources"
+        limitations: "Very limited free resources"
+        rating: 2
+        tags: [gpu, cloud, notebook]
+        status: active
+
+  - id: llm-api
+    name: LLM API
+    name_zh: LLM API 额度
+    resources:
+      - name: OpenRouter
+        url: https://openrouter.ai
+        description: Aggregated LLM API platform with many free models
+        free_tier: "Free models (Llama 3.1 8B, Mistral 7B, Gemma 2 9B, Qwen 2 7B, etc.) at no cost"
+        limitations: "~20 RPM rate limit on free models"
+        rating: 4
+        tags: [api, aggregator, no-credit-card, multi-model]
+        status: active
+
+      - name: DeepSeek
+        url: https://platform.deepseek.com
+        description: Top-tier reasoning model with generous free tokens
+        free_tier: "5M tokens free on registration; DeepSeek-V3 extremely low pricing (¥1/¥2 per M tokens)"
+        limitations: "1-5 RPM on free tier; requires phone verification"
+        rating: 5
+        tags: [api, no-credit-card, reasoning, chinese]
+        status: active
+
+      - name: Google Gemini
+        url: https://ai.google.dev
+        description: Google's Gemini models with generous free API tier
+        free_tier: "Gemini 2.0 Flash: 15 RPM, 1M TPD, 1500 RPD; Flash-Lite: 30 RPM"
+        limitations: "Rate limits apply; free tier prohibits commercial use"
+        rating: 5
+        tags: [api, no-credit-card, google, multimodal]
+        status: active
+
+      - name: OpenAI
+        url: https://platform.openai.com
+        description: GPT API platform (no free API tier currently)
+        free_tier: "No free API credits since April 2024; ChatGPT Free tier available"
+        limitations: "No ongoing free API tier"
+        rating: 2
+        tags: [api, paid, gpt]
+        status: active
+
+      - name: Cohere
+        url: https://cohere.com
+        description: Enterprise LLM API with RAG-specialized models
+        free_tier: "Trial Key: 20 calls/60s, 1000 calls/month; Command R/R+, Embed/Rerank"
+        limitations: "Trial tier limited; production requires paid plan"
+        rating: 4
+        tags: [api, no-credit-card, rag, embedding]
+        status: active
+
+      - name: Mistral AI
+        url: https://console.mistral.ai
+        description: European LLM provider with open-weight models
+        free_tier: "Trial credits (€8 trial ended); La Plateforme trial available"
+        limitations: "No ongoing monthly free tier"
+        rating: 3
+        tags: [api, no-credit-card, european, open-weights]
+        status: active
+
+      - name: Together AI
+        url: https://together.ai
+        description: Fast inference platform with free models and credits
+        free_tier: "$5 free credits on signup; free models (Llama 3.1 8B Instruct Turbo) at 60 RPM"
+        limitations: "$5 credits limited; ~500-1000M tokens equivalent"
+        rating: 4
+        tags: [api, no-credit-card, open-source, fast-inference]
+        status: active
+
+      - name: Groq
+        url: https://console.groq.com
+        description: Ultra-fast LLM inference with generous free tier
+        free_tier: "Developer free tier: 30 RPM, 14400 RPD, ~6000 TPM; Llama 3.1/3.2/3.3, Mixtral, Gemma 2"
+        limitations: "Monthly quotas; rate limits"
+        rating: 5
+        tags: [api, no-credit-card, fast-inference, lpu]
+        status: active
+
+      - name: Hugging Face Inference API
+        url: https://huggingface.co/docs/api-inference
+        description: API access to 200K+ open-source models
+        free_tier: "Free tier with limited calls; PRO $9/month for higher quota"
+        limitations: "1-3 RPM without token; 10-30 RPM with token"
+        rating: 4
+        tags: [api, no-credit-card, open-source, model-hub]
+        status: active
+
+      - name: Fireworks AI
+        url: https://fireworks.ai
+        description: Fast inference for open-source models
+        free_tier: "Free open-source model endpoints (Llama 3.1 8B, Mixtral, etc.) at 30-60 RPM"
+        limitations: "Rate limits on free tier"
+        rating: 4
+        tags: [api, no-credit-card, open-source, fast-inference]
+        status: active
+
+      - name: Perplexity
+        url: https://docs.perplexity.ai
+        description: Search-focused LLM API
+        free_tier: "$5 API credits for new users"
+        limitations: "Limited credits; search-focused"
+        rating: 3
+        tags: [api, no-credit-card, search]
+        status: active
+
+      - name: AnyScale
+        url: https://anyscale.com
+        description: Ray-based LLM serving platform
+        free_tier: "Free tier discontinued"
+        limitations: "No free tier available"
+        rating: 2
+        tags: [api, paid, ray]
+        status: active
+
+      - name: Replicate
+        url: https://replicate.com
+        description: Run and deploy ML models via API
+        free_tier: "No ongoing free tier; pay-per-second billing"
+        limitations: "No free tier"
+        rating: 2
+        tags: [api, paid, model-hosting]
+        status: active
+
+      - name: Deepinfra
+        url: https://deepinfra.com
+        description: Affordable GPU inference API
+        free_tier: "$1.8 new user credits; some free endpoints"
+        limitations: "Limited free credits"
+        rating: 3
+        tags: [api, no-credit-card, affordable]
+        status: active
+
+      - name: Novita AI
+        url: https://novita.ai
+        description: Cost-effective LLM API with free starter credits
+        free_tier: "$0.5-1 new user credits"
+        limitations: "Very limited free credits"
+        rating: 3
+        tags: [api, no-credit-card, affordable]
+        status: active
+
+      - name: Cerebras
+        url: https://cloud.cerebras.ai
+        description: Ultra-fast inference on Cerebras WSE hardware
+        free_tier: "Developer free tier; Llama 3.1 8B/70B, Llama 3.3 70B at >1000 tok/s"
+        limitations: "10-30 RPM rate limits"
+        rating: 4
+        tags: [api, no-credit-card, fast-inference, wse]
+        status: active
+
+      - name: SambaNova
+        url: https://sambanova.ai
+        description: Enterprise-grade fast LLM inference
+        free_tier: "Free API tier; Llama 3.1/3.2/3.3 models"
+        limitations: "Rate limits apply"
+        rating: 4
+        tags: [api, no-credit-card, fast-inference, enterprise]
+        status: active
+
+      - name: Silicon Flow
+        url: https://siliconflow.cn
+        description: Chinese-friendly LLM API with many permanently free models
+        free_tier: "Multiple open-source models permanently free (Qwen 2.5 7B, GLM-4 9B, SDXL, etc.)"
+        limitations: "10-30 RPM rate limits; requires phone verification"
+        rating: 5
+        tags: [api, no-credit-card, chinese, permanently-free]
+        status: active
+
+      - name: Cloudflare Workers AI
+        url: https://ai.cloudflare.com
+        description: Serverless AI inference at the edge
+        free_tier: "10,000 neurons/day (Workers Free tier); Llama 3.1/3.2, Mistral, Qwen, Gemma"
+        limitations: "Daily quota; edge-optimized models only"
+        rating: 4
+        tags: [api, no-credit-card, edge, serverless]
+        status: active
+
+      - name: 智谱 GLM
+        url: https://open.bigmodel.cn
+        description: Chinese LLM platform with generous free tokens
+        free_tier: "25M tokens free on registration; GLM-4-Flash permanently free"
+        limitations: "Requires phone verification and real-name authentication"
+        rating: 5
+        tags: [api, no-credit-card, chinese, glm]
+        status: active
+
+      - name: 月之暗面 Moonshot
+        url: https://platform.moonshot.cn
+        description: Kimi LLM API with long context support
+        free_tier: "¥15 free credits on registration; Moonshot-v1-8K/32K/128K"
+        limitations: "Limited free credits"
+        rating: 4
+        tags: [api, no-credit-card, chinese, long-context]
+        status: active
+
+      - name: 阿里巴巴 DashScope
+        url: https://dashscope.console.aliyun.com
+        description: Alibaba's Qwen LLM API with generous free tier
+        free_tier: "1-8M tokens free for new users; Alibaba Cloud users get ¥3000 credits"
+        limitations: "Requires Alibaba Cloud account and real-name authentication"
+        rating: 5
+        tags: [api, no-credit-card, chinese, qwen]
+        status: active
+
+      - name: 字节跳动火山引擎
+        url: https://www.volcengine.com/product/doubao
+        description: ByteDance's Doubao LLM API
+        free_tier: "Doubao-lite free; 500K-5M tokens free for new users"
+        limitations: "Limited free tier"
+        rating: 4
+        tags: [api, no-credit-card, chinese, doubao]
+        status: active
+
+      - name: 百度千帆
+        url: https://qianfan.baidubce.com
+        description: Baidu's ERNIE LLM API platform
+        free_tier: "1-5M tokens free; ERNIE-Lite permanently free"
+        limitations: "Requires Baidu account"
+        rating: 4
+        tags: [api, no-credit-card, chinese, ernie]
+        status: active
+
+      - name: 腾讯混元
+        url: https://cloud.tencent.com/product/hunyuan
+        description: Tencent's Hunyuan LLM API
+        free_tier: "1M tokens free for Tencent Cloud new users; Hunyuan-Lite free"
+        limitations: "Requires Tencent Cloud account"
+        rating: 4
+        tags: [api, no-credit-card, chinese, hunyuan]
+        status: active
+
+      - name: 讯飞星火
+        url: https://xinghuo.xfyun.cn
+        description: iFlytek's Spark LLM API
+        free_tier: "2-5M tokens free; Spark-Lite permanently free"
+        limitations: "Requires verification"
+        rating: 3
+        tags: [api, no-credit-card, chinese, spark]
+        status: active
+
+      - name: MiniMax
+        url: https://www.minimaxi.com
+        description: Chinese LLM provider with free tier
+        free_tier: "Free credits for new users"
+        limitations: "Limited details on free tier"
+        rating: 3
+        tags: [api, no-credit-card, chinese]
+        status: active
+
+      - name: 零一万物 Yi
+        url: https://platform.01.ai
+        description: 01.AI's Yi series LLM API
+        free_tier: "Yi-Lightning free; registration token bonus"
+        limitations: "Limited free tier details"
+        rating: 4
+        tags: [api, no-credit-card, chinese, yi]
+        status: active
+
+      - name: 百川智能
+        url: https://platform.baichuan-ai.com
+        description: Baichuan LLM API platform
+        free_tier: "Free tokens for new users"
+        limitations: "Limited free tier"
+        rating: 3
+        tags: [api, no-credit-card, chinese, baichuan]
+        status: active
+
+      - name: 阶跃星辰 StepFun
+        url: https://platform.stepfun.com
+        description: StepFun's Step series LLM API
+        free_tier: "Free credits for new users; Step-1 partially free"
+        limitations: "Limited free tier"
+        rating: 3
+        tags: [api, no-credit-card, chinese, step]
+        status: active
+
+      - name: AWS Bedrock
+        url: https://aws.amazon.com/bedrock
+        description: AWS managed LLM API service
+        free_tier: "No ongoing free LLM tier"
+        limitations: "Pay-per-use only"
+        rating: 1
+        tags: [api, paid, aws, cloud]
+        status: active
+
+      - name: Azure AI
+        url: https://azure.microsoft.com/products/ai-services
+        description: Microsoft Azure AI/OpenAI service
+        free_tier: "$200 credits for 30 days; OpenAI Service requires separate application"
+        limitations: "30-day limit; OpenAI access not guaranteed"
+        rating: 2
+        tags: [api, credit-card-required, azure, cloud]
+        status: active
+
+  - id: local-llm
+    name: Local LLM
+    name_zh: 本地大模型
+    resources:
+      - name: Ollama
+        url: https://ollama.com
+        description: Easiest way to run LLMs locally with one command
+        free_tier: "Completely free and open-source; 100+ GGUF models supported"
+        limitations: "Hardware dependent; 8GB RAM minimum for 7B models"
+        rating: 5
+        tags: [local, cli, open-source, gguf, easy]
+        status: active
+
+      - name: llama.cpp
+        url: https://github.com/ggerganov/llama.cpp
+        description: C/C++ LLM inference with CPU/GPU support
+        free_tier: "Completely free and open-source; supports almost all GGUF models"
+        limitations: "Requires compilation or binary download; command-line only"
+        rating: 5
+        tags: [local, library, open-source, gguf, cpu-gpu]
+        status: active
+
+      - name: vLLM
+        url: https://github.com/vllm-project/vllm
+        description: High-throughput LLM serving engine for production
+        free_tier: "Completely free and open-source; OpenAI-compatible API"
+        limitations: "Requires GPU; minimum 24GB VRAM recommended"
+        rating: 5
+        tags: [local, serving, open-source, gpu, production]
+        status: active
+
+      - name: LocalAI
+        url: https://github.com/mudler/LocalAI
+        description: OpenAI-compatible local inference with Docker support
+        free_tier: "Completely free and OpenAI API compatible; GGUF, SD, Whisper, TTS"
+        limitations: "8GB RAM minimum; some features need GPU"
+        rating: 4
+        tags: [local, docker, open-source, openai-compatible, multimodal]
+        status: active
+
+      - name: LM Studio
+        url: https://lmstudio.ai
+        description: Beautiful desktop app for running LLMs locally
+        free_tier: "Free for personal use; all GGUF models; built-in model search/download"
+        limitations: "Hardware dependent; 8GB RAM minimum"
+        rating: 5
+        tags: [local, desktop, gui, gguf, easy]
+        status: active
+
+      - name: GPT4All
+        url: https://gpt4all.io
+        description: CPU-optimized local LLM desktop app
+        free_tier: "Free and open-source; curated GGUF models; 4GB RAM for small models"
+        limitations: "Limited model selection; CPU performance constrained"
+        rating: 3
+        tags: [local, desktop, gui, cpu, beginner]
+        status: active
+
+      - name: Jan
+        url: https://jan.ai
+        description: Privacy-first modern desktop LLM app
+        free_tier: "Free and open-source; supports local models and remote APIs"
+        limitations: "8GB RAM minimum"
+        rating: 4
+        tags: [local, desktop, gui, privacy, open-source]
+        status: active
+
+      - name: KoboldCPP
+        url: https://github.com/LostRuins/koboldcpp
+        description: Single-file LLM runner optimized for creative writing
+        free_tier: "Completely free; all GGUF/GGML models; built-in Web GUI"
+        limitations: "CPU-focused; 4GB RAM for small models"
+        rating: 4
+        tags: [local, single-file, gguf, creative-writing, web-gui]
+        status: active
+
+      - name: text-generation-webui
+        url: https://github.com/oobabooga/text-generation-webui
+        description: Feature-rich web UI for LLMs with extensive parameters
+        free_tier: "Completely free; supports GGUF, GPTQ, AWQ, EXL2, HF formats"
+        limitations: "Complex interface; steep learning curve"
+        rating: 4
+        tags: [local, web-ui, open-source, advanced, multi-format]
+        status: active
+
+      - name: Open WebUI
+        url: https://github.com/open-webui/open-webui
+        description: ChatGPT-style web interface for Ollama and other backends
+        free_tier: "Completely free; RAG, document upload, code highlighting, multimodal"
+        limitations: "Requires Ollama or compatible backend"
+        rating: 5
+        tags: [local, web-ui, open-source, chatgpt-like, rag]
+        status: active
+
+      - name: ComfyUI
+        url: https://github.com/comfyanonymous/ComfyUI
+        description: Node-based workflow UI with LLM extension support
+        free_tier: "Completely free; LLM nodes via Ollama/llama.cpp/GPT4All backends"
+        limitations: "LLM support is add-on; complex node-based workflow"
+        rating: 3
+        tags: [local, node-based, open-source, image-generation, workflow]
+        status: active
+
+      - name: Llamafile
+        url: https://github.com/Mozilla-Ocho/llamafile
+        description: Single-file distributable LLM runner
+        free_tier: "Completely free; model + llama.cpp in one executable"
+        limitations: "8GB RAM minimum; file size can be large"
+        rating: 4
+        tags: [local, single-file, open-source, portable, zero-install]
+        status: active
+
+      - name: TabbyML
+        url: https://github.com/TabbyML/tabby
+        description: Self-hosted AI coding assistant
+        free_tier: "Completely free; code completion models (StarCoder, CodeLlama, etc.)"
+        limitations: "2-4GB VRAM for small code models"
+        rating: 4
+        tags: [local, code-completion, open-source, ide-plugin, self-hosted]
+        status: active
+
+      - name: Aphrodite Engine
+        url: https://github.com/aphrodite-engine/aphrodite
+        description: vLLM-based engine with extended model format support
+        free_tier: "Completely free; extends vLLM with more formats and RoPE scaling"
+        limitations: "Requires GPU; 24GB+ VRAM recommended; advanced users"
+        rating: 3
+        tags: [local, serving, open-source, gpu, advanced]
+        status: active
+
+      - name: ExLlamaV2
+        url: https://github.com/turboderp/exllamav2
+        description: Fastest GPU inference for EXL2 quantized models
+        free_tier: "Completely free; EXL2 format models (Llama/Mistral/Qwen)"
+        limitations: "NVIDIA GPU only; 24GB VRAM for 70B; command-line"
+        rating: 4
+        tags: [local, gpu, open-source, nvidia, fast-inference]
+        status: active
+
+  - id: vps
+    name: VPS / Cloud
+    name_zh: VPS / 云服务器
+    resources:
+      - name: Oracle Cloud Free Tier
+        url: https://www.oracle.com/cloud/free/
+        description: Oracle Cloud's always-free tier with ARM instances
+        free_tier: "4 ARM Ampere A1 cores, 24GB RAM, 200GB storage always free"
+        limitations: "Limited GPU options; ARM architecture may have compatibility issues"
+        rating: 4
+        tags: [vps, cloud, always-free, arm, oracle]
+        status: active
+
+      - name: GitHub Codespaces
+        url: https://github.com/features/codespaces
+        description: Cloud-hosted VS Code development environments
+        free_tier: "60 hours/month, 2-core, 8GB RAM, 32GB storage"
+        limitations: "Monthly quota; GitHub account required"
+        rating: 4
+        tags: [vps, cloud, development, vscode, github]
+        status: active
+
+      - name: Replit
+        url: https://replit.com
+        description: Online IDE with free cloud compute
+        free_tier: "Free tier with limited compute; always-on option available"
+        limitations: "Limited free compute; requires always-on for paid tier"
+        rating: 3
+        tags: [vps, cloud, ide, development, no-credit-card]
+        status: active
+
+      - name: Google Cloud Shell
+        url: https://shell.cloud.google.com
+        description: Free Linux shell with browser-based IDE
+        free_tier: "Free 5GB persistent disk, always-available shell, weekly time limits"
+        limitations: "5GB storage; weekly usage limits; no GPU"
+        rating: 3
+        tags: [vps, cloud, shell, google, no-credit-card]
+        status: active
+
+      - name: AWS Free Tier
+        url: https://aws.amazon.com/free/
+        description: AWS always-free and 12-month free tier for cloud services
+        free_tier: "750h EC2 t2.micro/month, 5GB S3, 1M Lambda requests/month (always free)"
+        limitations: "12-month limit for some services; credit card required"
+        rating: 4
+        tags: [vps, cloud, aws, iaas]
+        status: active
+
+      - name: Google Cloud Free Tier
+        url: https://cloud.google.com/free/
+        description: GCP always-free tier plus $300 new-user credits
+        free_tier: "e2-micro instance (US regions), 5GB Cloud Storage, $300 credits (90 days)"
+        limitations: "Credits expire in 90 days; credit card required"
+        rating: 4
+        tags: [vps, cloud, gcp, google]
+        status: active
+
+      - name: Azure Free Account
+        url: https://azure.microsoft.com/free/
+        description: Microsoft Azure free tier with $200 credits
+        free_tier: "750h B1s VM/month, 5GB Blob Storage, $200 credits (30 days)"
+        limitations: "Credits expire in 30 days; credit card required"
+        rating: 4
+        tags: [vps, cloud, azure, microsoft]
+        status: active
+
+      - name: Fly.io
+        url: https://fly.io
+        description: Deploy apps close to users with free allowance
+        free_tier: "3 shared-cpu VMs, 3GB storage, 160GB bandwidth/month"
+        limitations: "Limited to small workloads; VMs sleep after inactivity"
+        rating: 4
+        tags: [vps, cloud, hosting, serverless, no-credit-card]
+        status: active
+
+      - name: Railway
+        url: https://railway.app
+        description: Deploy apps with free monthly credits
+        free_tier: "$5 free credits/month, 500 execution hours"
+        limitations: "Credits reset monthly; not always-free"
+        rating: 3
+        tags: [vps, cloud, hosting, deployment]
+        status: active
+
+      - name: Render
+        url: https://render.com
+        description: Free cloud hosting for web services and databases
+        free_tier: "Free web services (spin down after inactivity), free PostgreSQL (90 days)"
+        limitations: "Services spin down after 15min inactivity; DB expires in 90 days"
+        rating: 4
+        tags: [vps, cloud, hosting, database, no-credit-card]
+        status: active
+
+      - name: Deno Deploy
+        url: https://deno.com/deploy
+        description: Serverless JavaScript/TypeScript platform
+        free_tier: "100K requests/day, 100GB bandwidth/day, unlimited sites"
+        limitations: "No custom domains on free tier; edge-only"
+        rating: 3
+        tags: [vps, cloud, serverless, deno, no-credit-card]
+        status: active
+
+      - name: Koyeb
+        url: https://www.koyeb.com
+        description: Serverless platform with nano instances
+        free_tier: "1 nano instance (256MB RAM), 1GB storage, unlimited apps"
+        limitations: "Nano instance only; limited resources"
+        rating: 3
+        tags: [vps, cloud, hosting, serverless, no-credit-card]
+        status: active
+
+      - name: Northflank
+        url: https://northflank.com
+        description: Deploy apps and databases with free tier
+        free_tier: "2 services, 256MB RAM each, 1GB storage"
+        limitations: "Limited to 2 services; low resources"
+        rating: 3
+        tags: [vps, cloud, hosting, database]
+        status: active
+
+  - id: dev-tools
+    name: Developer Tools
+    name_zh: 开发工具
+    resources:
+      - name: GitHub
+        url: https://github.com
+        description: Code hosting with free CI/CD and Actions
+        free_tier: "Unlimited public/private repos; 2000 Actions minutes/month; 500MB Packages"
+        limitations: "Actions minutes limited on free tier"
+        rating: 5
+        tags: [dev-tools, git, ci-cd, collaboration, no-credit-card]
+        status: active
+
+      - name: Visual Studio Code
+        url: https://code.visualstudio.com
+        description: Free, powerful code editor with AI extensions
+        free_tier: "Completely free; Copilot free tier available (limited)"
+        limitations: "Copilot free tier has limited completions"
+        rating: 5
+        tags: [dev-tools, editor, open-source, ai-extensions]
+        status: active
+
+      - name: PyCharm Community
+        url: https://www.jetbrains.com/pycharm/
+        description: Free Python IDE from JetBrains
+        free_tier: "Free Community Edition; full Python support"
+        limitations: "No web framework support in Community; Professional is paid"
+        rating: 4
+        tags: [dev-tools, ide, python, jetbrains]
+        status: active
+
+      - name: Google BigQuery Sandbox
+        url: https://cloud.google.com/bigquery
+        description: Free BigQuery sandbox for data analysis
+        free_tier: "10GB storage, 1TB queries/month free"
+        limitations: "No credit card required but limited scale"
+        rating: 4
+        tags: [dev-tools, data, analytics, google, no-credit-card]
+        status: active
+
+      - name: MongoDB Atlas
+        url: https://www.mongodb.com/atlas
+        description: Free cloud database tier
+        free_tier: "512MB-5GB free cluster; shared RAM"
+        limitations: "Limited storage and RAM"
+        rating: 4
+        tags: [dev-tools, database, cloud, no-credit-card]
+        status: active
+
+      - name: Supabase
+        url: https://supabase.com
+        description: Open-source Firebase alternative with free tier
+        free_tier: "500MB database, 1GB file storage, 50K auth users, unlimited API calls"
+        limitations: "500MB database; pauses after inactivity on free tier"
+        rating: 4
+        tags: [dev-tools, database, backend, open-source, postgres]
+        status: active
+
+      - name: Vercel
+        url: https://vercel.com
+        description: Free frontend deployment platform
+        free_tier: "100GB bandwidth, unlimited static sites, serverless functions (1000 hours/month)"
+        limitations: "Serverless function execution time limits"
+        rating: 4
+        tags: [dev-tools, hosting, frontend, serverless, no-credit-card]
+        status: active
+
+      - name: Netlify
+        url: https://www.netlify.com
+        description: Free web hosting and serverless platform
+        free_tier: "100GB bandwidth, 300 build minutes/month, serverless functions"
+        limitations: "Build minutes limited; bandwidth cap"
+        rating: 4
+        tags: [dev-tools, hosting, frontend, serverless, no-credit-card]
+        status: active
+
+      - name: Hugging Face Hub
+        url: https://huggingface.co
+        description: ML model and dataset hosting platform
+        free_tier: "Unlimited public repos, model hosting, datasets, inference API (limited)"
+        limitations: "Private repos require PRO; inference API rate-limited"
+        rating: 5
+        tags: [dev-tools, ml, model-hub, datasets, collaboration]
+        status: active
+
+      - name: Weights & Biases
+        url: https://wandb.ai
+        description: ML experiment tracking and visualization
+        free_tier: "Free for individuals; 100GB storage, unlimited experiments"
+        limitations: "Team features require paid plan"
+        rating: 4
+        tags: [dev-tools, ml, experiment-tracking, visualization]
+        status: active
+
+      - name: DagsHub
+        url: https://dagshub.com
+        description: GitHub for data science with free ML tools
+        free_tier: "Unlimited public/private repos, 100GB storage, free DVC"
+        limitations: "100GB storage limit on free tier"
+        rating: 4
+        tags: [dev-tools, ml, git, data-science, collaboration]
+        status: active
+
+      - name: GitLab
+        url: https://gitlab.com
+        description: Full DevOps platform with free CI/CD
+        free_tier: "400 CI/CD minutes/month, unlimited repos, 10GB storage"
+        limitations: "CI minutes limited on free tier"
+        rating: 5
+        tags: [dev-tools, git, ci-cd, devops, no-credit-card]
+        status: active
+
+      - name: Cloudflare Workers
+        url: https://workers.cloudflare.com
+        description: Serverless edge computing platform
+        free_tier: "100K requests/day, 10ms CPU time/request, unlimited sites"
+        limitations: "100K/day limit; no WebSocket on free tier"
+        rating: 4
+        tags: [dev-tools, serverless, edge, cloudflare, no-credit-card]
+        status: active
+
+      - name: PlanetScale
+        url: https://planetscale.com
+        description: Serverless MySQL platform (now free tier)
+        free_tier: "5GB storage, 1 billion row reads/month, 10M row writes/month"
+        limitations: "Deprecated free tier for new users (check current status)"
+        rating: 3
+        tags: [dev-tools, database, mysql, serverless]
+        status: unknown
+
+      - name: Neon Postgres
+        url: https://neon.tech
+        description: Serverless Postgres with generous free tier
+        free_tier: "512MB storage, 10K connections, autoscaling compute"
+        limitations: "512MB storage; compute sleeps after inactivity"
+        rating: 4
+        tags: [dev-tools, database, postgres, serverless, no-credit-card]
+        status: active
+
+      - name: Upstash Redis
+        url: https://upstash.com
+        description: Serverless Redis with free daily quota
+        free_tier: "10K commands/day, 256MB storage, global replication"
+        limitations: "Daily quota resets; 256MB limit"
+        rating: 4
+        tags: [dev-tools, database, redis, cache, serverless, no-credit-card]
+        status: active
+
+      - name: Sentry
+        url: https://sentry.io
+        description: Error tracking and performance monitoring
+        free_tier: "5K errors/month, 10K transactions/month, 1 user"
+        limitations: "Very limited on free tier; 1 user only"
+        rating: 4
+        tags: [dev-tools, monitoring, error-tracking, performance]
+        status: active
+
+      - name: Tailscale
+        url: https://tailscale.com
+        description: Zero-config VPN for teams
+        free_tier: "100 devices, 3 users, unlimited bandwidth"
+        limitations: "Control self-hosting limited on free plan"
+        rating: 5
+        tags: [dev-tools, networking, vpn, security, no-credit-card]
+        status: active
+
+      - name: Colab Enterprise
+        url: https://cloud.google.com/vertex-ai/docs/colab-enterprise
+        description: Managed Colab on GCP with enterprise features
+        free_tier: "Included with GCP $300 credits"
+        limitations: "Requires GCP account and credits"
+        rating: 3
+        tags: [dev-tools, notebook, google, enterprise]
+        status: active
