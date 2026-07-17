@@ -1,0 +1,15 @@
+# Python venv (heavy: browser-use + playwright + chromium)
+.venv/
+
+# Playwright browser cache
+.playwright/
+~/.cache/ms-playwright/
+
+# Local secrets / LLM config
+.env
+agent/.env
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
