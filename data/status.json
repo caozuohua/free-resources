@@ -1,590 +1,2341 @@
 {
-  "generated_at": "2026-07-13T08:42:43Z",
+  "generated_at": "2026-07-17T11:44:52Z",
+  "mode": "all",
   "total": 97,
-  "alive": 87,
-  "dead": 10,
+  "counts": {
+    "active": 0,
+    "stale": 0,
+    "dead": 0,
+    "unknown": 97
+  },
   "results": {
-    "Google Colab Pro": {
-      "status": "active",
-      "response_time_ms": 0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
-    },
     "Google Colab": {
-      "status": "active",
-      "response_time_ms": 0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
-    },
-    "Google Colab Pro+": {
-      "status": "active",
-      "response_time_ms": 0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
-    },
-    "Modal": {
-      "status": "active",
-      "response_time_ms": 307.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
-    },
-    "Lightning AI Studio": {
-      "status": "active",
-      "response_time_ms": 341.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
+      "name": "Google Colab",
+      "url": "https://colab.research.google.com",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://colab.research.google.com",
+        "response_time_ms": 89.52903747558594,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
     "Kaggle Notebooks": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "error": "HTTP 404",
-      "checked_at": "2026-07-13T08:42:31Z"
-    },
-    "Google Cloud Vertex AI": {
-      "status": "active",
-      "response_time_ms": 421.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
-    },
-    "TPU Research Cloud": {
-      "status": "active",
-      "response_time_ms": 201.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
-    },
-    "Azure for Students / Azure Free Account": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "error": "HTTP 404",
-      "checked_at": "2026-07-13T08:42:31Z"
+      "name": "Kaggle Notebooks",
+      "url": "https://kaggle.com",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://kaggle.com",
+        "response_time_ms": 204.65779304504395,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
     "Hugging Face Spaces": {
-      "status": "active",
-      "response_time_ms": 567.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
+      "name": "Hugging Face Spaces",
+      "url": "https://huggingface.co/spaces",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://huggingface.co/spaces",
+        "response_time_ms": 248.3532428741455,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Vast.ai": {
-      "status": "active",
-      "response_time_ms": 342.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
+    "Lightning AI Studio": {
+      "name": "Lightning AI Studio",
+      "url": "https://lightning.ai",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://lightning.ai",
+        "response_time_ms": 70.57023048400879,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Noteable": {
-      "status": "active",
-      "response_time_ms": 204.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
+    "Google Colab Pro": {
+      "name": "Google Colab Pro",
+      "url": "https://colab.research.google.com/signup",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://colab.research.google.com/signup",
+        "response_time_ms": 275.19893646240234,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "OpenRouter": {
-      "status": "active",
-      "response_time_ms": 147.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
+    "Google Colab Pro+": {
+      "name": "Google Colab Pro+",
+      "url": "https://colab.research.google.com/signup",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://colab.research.google.com/signup",
+        "response_time_ms": 272.7231979370117,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Google Cloud Vertex AI": {
+      "name": "Google Cloud Vertex AI",
+      "url": "https://cloud.google.com/vertex-ai",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://cloud.google.com/products/gemini-enterprise-agent-platform",
+        "response_time_ms": 213.84835243225098,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
     "RunPod Community Cloud": {
-      "status": "active",
-      "response_time_ms": 670.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
+      "name": "RunPod Community Cloud",
+      "url": "https://runpod.io",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.runpod.io/",
+        "response_time_ms": 219.46430206298828,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "OpenAI": {
-      "status": "active",
-      "response_time_ms": 0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
-    },
-    "AWS Activate / AWS Educate": {
-      "status": "active",
-      "response_time_ms": 533.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
-    },
-    "Deepnote": {
-      "status": "active",
-      "response_time_ms": 406.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:31Z"
+    "Modal": {
+      "name": "Modal",
+      "url": "https://modal.com",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://modal.com",
+        "response_time_ms": 421.37670516967773,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
     "Lambda Cloud": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "error": "HTTP 404",
-      "checked_at": "2026-07-13T08:42:32Z"
+      "name": "Lambda Cloud",
+      "url": "https://lambdalabs.com/service/gpu-cloud",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 404,
+        "final_url": "https://lambdalabs.com/service/gpu-cloud",
+        "response_time_ms": null,
+        "error": null,
+        "evidence": "urllib 404"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Cohere": {
-      "status": "active",
-      "response_time_ms": 390.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
+    "Vast.ai": {
+      "name": "Vast.ai",
+      "url": "https://vast.ai",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://vast.ai",
+        "response_time_ms": 64.98169898986816,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "DeepSeek": {
-      "status": "active",
-      "response_time_ms": 0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
+    "TPU Research Cloud": {
+      "name": "TPU Research Cloud",
+      "url": "https://sites.research.google/trc/",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://sites.research.google/trc/",
+        "response_time_ms": 141.20125770568848,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "AWS Activate / AWS Educate": {
+      "name": "AWS Activate / AWS Educate",
+      "url": "https://aws.amazon.com/activate",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://aws.amazon.com/startups/",
+        "response_time_ms": 4160.453319549561,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Azure for Students / Azure Free Account": {
+      "name": "Azure for Students / Azure Free Account",
+      "url": "https://azure.microsoft.com/free",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount",
+        "response_time_ms": 18375.06413459778,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
     "Gradient by Paperspace": {
-      "status": "active",
-      "response_time_ms": 756.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
+      "name": "Gradient by Paperspace",
+      "url": "https://www.digitalocean.com/products/paperspace",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.digitalocean.com/products",
+        "response_time_ms": 346.9071388244629,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Google Gemini": {
-      "status": "active",
-      "response_time_ms": 577.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
+    "Noteable": {
+      "name": "Noteable",
+      "url": "https://noteable.io",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://noteable.io",
+        "response_time_ms": 223.4947681427002,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Together AI": {
-      "status": "active",
-      "response_time_ms": 476.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
-    },
-    "Hugging Face Inference API": {
-      "status": "active",
-      "response_time_ms": 383.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
-    },
-    "Fireworks AI": {
-      "status": "active",
-      "response_time_ms": 286.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
-    },
-    "Groq": {
-      "status": "active",
-      "response_time_ms": 530.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
+    "Deepnote": {
+      "name": "Deepnote",
+      "url": "https://deepnote.com",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://deepnote.com",
+        "response_time_ms": 443.79663467407227,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
     "Saturn Cloud": {
-      "status": "active",
-      "response_time_ms": 868.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
+      "name": "Saturn Cloud",
+      "url": "https://saturncloud.io",
+      "category_id": "gpu-compute",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://saturncloud.io",
+        "response_time_ms": 792.1693325042725,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Perplexity": {
-      "status": "active",
-      "response_time_ms": 336.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
+    "OpenRouter": {
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://openrouter.ai",
+        "response_time_ms": 133.92376899719238,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Cerebras": {
-      "status": "active",
-      "response_time_ms": 175.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
+    "DeepSeek": {
+      "name": "DeepSeek",
+      "url": "https://platform.deepseek.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 202,
+        "final_url": "https://platform.deepseek.com",
+        "response_time_ms": 44.324398040771484,
+        "error": null,
+        "evidence": "urllib 202"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Deepinfra": {
-      "status": "active",
-      "response_time_ms": 244.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
+    "Google Gemini": {
+      "name": "Google Gemini",
+      "url": "https://ai.google.dev",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 302,
+        "final_url": "https://ai.google.dev",
+        "response_time_ms": null,
+        "error": null,
+        "evidence": "urllib 302"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "AnyScale": {
-      "status": "active",
-      "response_time_ms": 388.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
+    "OpenAI": {
+      "name": "OpenAI",
+      "url": "https://platform.openai.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 403,
+        "final_url": "https://platform.openai.com",
+        "response_time_ms": 28.68962287902832,
+        "error": null,
+        "evidence": "urllib 403 (bot-block, alive)"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Replicate": {
-      "status": "active",
-      "response_time_ms": 378.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
-    },
-    "SambaNova": {
-      "status": "active",
-      "response_time_ms": 244.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
-    },
-    "Novita AI": {
-      "status": "active",
-      "response_time_ms": 519.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:32Z"
-    },
-    "Cloudflare Workers AI": {
-      "status": "active",
-      "response_time_ms": 815.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:33Z"
-    },
-    "Silicon Flow": {
-      "status": "active",
-      "response_time_ms": 1153.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:33Z"
-    },
-    "智谱 GLM": {
-      "status": "active",
-      "response_time_ms": 1217.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:33Z"
-    },
-    "零一万物 Yi": {
-      "status": "active",
-      "response_time_ms": 271.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:33Z"
-    },
-    "百度千帆": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "error": "HTTP 404",
-      "checked_at": "2026-07-13T08:42:33Z"
-    },
-    "讯飞星火": {
-      "status": "active",
-      "response_time_ms": 1216.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:33Z"
-    },
-    "AWS Bedrock": {
-      "status": "active",
-      "response_time_ms": 187.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:34Z"
-    },
-    "Azure AI": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "error": "HTTP 404",
-      "checked_at": "2026-07-13T08:42:34Z"
-    },
-    "腾讯混元": {
-      "status": "active",
-      "response_time_ms": 1708.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:34Z"
-    },
-    "Ollama": {
-      "status": "active",
-      "response_time_ms": 239.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:34Z"
-    },
-    "MiniMax": {
-      "status": "active",
-      "response_time_ms": 1468.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:34Z"
-    },
-    "月之暗面 Moonshot": {
-      "status": "active",
-      "response_time_ms": 2235.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:34Z"
-    },
-    "阿里巴巴 DashScope": {
-      "status": "active",
-      "response_time_ms": 2286.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:34Z"
-    },
-    "vLLM": {
-      "status": "active",
-      "response_time_ms": 533.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:34Z"
-    },
-    "LocalAI": {
-      "status": "active",
-      "response_time_ms": 650.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:34Z"
-    },
-    "llama.cpp": {
-      "status": "active",
-      "response_time_ms": 730.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "Jan": {
-      "status": "active",
-      "response_time_ms": 298.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "GPT4All": {
-      "status": "active",
-      "response_time_ms": 467.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "LM Studio": {
-      "status": "active",
-      "response_time_ms": 525.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "KoboldCPP": {
-      "status": "active",
-      "response_time_ms": 591.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "Open WebUI": {
-      "status": "active",
-      "response_time_ms": 499.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "text-generation-webui": {
-      "status": "active",
-      "response_time_ms": 703.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "Aphrodite Engine": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "error": "HTTP 404",
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "ComfyUI": {
-      "status": "active",
-      "response_time_ms": 814.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "Oracle Cloud Free Tier": {
-      "status": "active",
-      "response_time_ms": 200.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "TabbyML": {
-      "status": "active",
-      "response_time_ms": 707.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "Llamafile": {
-      "status": "active",
-      "response_time_ms": 792.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "GitHub Codespaces": {
-      "status": "active",
-      "response_time_ms": 274.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "Replit": {
-      "status": "active",
-      "response_time_ms": 113.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:35Z"
-    },
-    "AWS Free Tier": {
-      "status": "active",
-      "response_time_ms": 107.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
-    },
-    "Fly.io": {
-      "status": "active",
-      "response_time_ms": 158.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
-    },
-    "Azure Free Account": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "error": "HTTP 404",
-      "checked_at": "2026-07-13T08:42:36Z"
-    },
-    "Google Cloud Free Tier": {
-      "status": "active",
-      "response_time_ms": 258.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
-    },
-    "ExLlamaV2": {
-      "status": "active",
-      "response_time_ms": 732.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
-    },
-    "Railway": {
-      "status": "active",
-      "response_time_ms": 278.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
-    },
-    "Deno Deploy": {
-      "status": "active",
-      "response_time_ms": 159.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
-    },
-    "GitHub": {
-      "status": "active",
-      "response_time_ms": 93.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
-    },
-    "Render": {
-      "status": "active",
-      "response_time_ms": 272.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
-    },
-    "百川智能": {
-      "status": "active",
-      "response_time_ms": 2776.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
-    },
-    "Google Cloud Shell": {
-      "status": "active",
-      "response_time_ms": 562.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
-    },
-    "Koyeb": {
-      "status": "active",
-      "response_time_ms": 377.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
+    "Cohere": {
+      "name": "Cohere",
+      "url": "https://cohere.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://cohere.com",
+        "response_time_ms": 401.6759395599365,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
     "Mistral AI": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "error": "HTTP 307",
-      "checked_at": "2026-07-13T08:42:36Z"
+      "name": "Mistral AI",
+      "url": "https://console.mistral.ai",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 307,
+        "final_url": "https://console.mistral.ai",
+        "response_time_ms": null,
+        "error": null,
+        "evidence": "urllib 307"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Google BigQuery Sandbox": {
-      "status": "active",
-      "response_time_ms": 169.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
+    "Together AI": {
+      "name": "Together AI",
+      "url": "https://together.ai",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.together.ai/",
+        "response_time_ms": 202.95047760009766,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Northflank": {
-      "status": "active",
-      "response_time_ms": 343.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
+    "Groq": {
+      "name": "Groq",
+      "url": "https://console.groq.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://console.groq.com/home",
+        "response_time_ms": 248.19087982177734,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "PyCharm Community": {
-      "status": "active",
-      "response_time_ms": 289.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
+    "Hugging Face Inference API": {
+      "name": "Hugging Face Inference API",
+      "url": "https://huggingface.co/docs/api-inference",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://huggingface.co/docs/inference-providers/index",
+        "response_time_ms": 310.6839656829834,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Hugging Face Hub": {
-      "status": "active",
-      "response_time_ms": 97.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
+    "Fireworks AI": {
+      "name": "Fireworks AI",
+      "url": "https://fireworks.ai",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://fireworks.ai",
+        "response_time_ms": 423.72775077819824,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Vercel": {
-      "status": "active",
-      "response_time_ms": 145.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
+    "Perplexity": {
+      "name": "Perplexity",
+      "url": "https://docs.perplexity.ai",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://docs.perplexity.ai/docs/getting-started/overview",
+        "response_time_ms": 117.64240264892578,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Netlify": {
-      "status": "active",
-      "response_time_ms": 176.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
+    "AnyScale": {
+      "name": "AnyScale",
+      "url": "https://anyscale.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.anyscale.com/",
+        "response_time_ms": 320.9385871887207,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "DagsHub": {
-      "status": "active",
-      "response_time_ms": 117.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
+    "Replicate": {
+      "name": "Replicate",
+      "url": "https://replicate.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://replicate.com",
+        "response_time_ms": 548.1696128845215,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Supabase": {
-      "status": "active",
-      "response_time_ms": 387.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
+    "Deepinfra": {
+      "name": "Deepinfra",
+      "url": "https://deepinfra.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://deepinfra.com",
+        "response_time_ms": 108.48808288574219,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "GitLab": {
-      "status": "active",
-      "response_time_ms": 287.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:36Z"
+    "Novita AI": {
+      "name": "Novita AI",
+      "url": "https://novita.ai",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://novita.ai",
+        "response_time_ms": 461.67635917663574,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Upstash Redis": {
-      "status": "active",
-      "response_time_ms": 188.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:37Z"
+    "Cerebras": {
+      "name": "Cerebras",
+      "url": "https://cloud.cerebras.ai",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://cloud.cerebras.ai",
+        "response_time_ms": 125.46372413635254,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "PlanetScale": {
-      "status": "active",
-      "response_time_ms": 299.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:37Z"
+    "SambaNova": {
+      "name": "SambaNova",
+      "url": "https://sambanova.ai",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://sambanova.ai",
+        "response_time_ms": 90.0580883026123,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Cloudflare Workers": {
-      "status": "active",
-      "response_time_ms": 386.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:37Z"
+    "Silicon Flow": {
+      "name": "Silicon Flow",
+      "url": "https://siliconflow.cn",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://siliconflow.cn",
+        "response_time_ms": 992.990255355835,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Neon Postgres": {
-      "status": "active",
-      "response_time_ms": 335.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:37Z"
+    "Cloudflare Workers AI": {
+      "name": "Cloudflare Workers AI",
+      "url": "https://ai.cloudflare.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.cloudflare.com/solutions/ai/",
+        "response_time_ms": 663.2583141326904,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Sentry": {
-      "status": "active",
-      "response_time_ms": 215.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:37Z"
+    "智谱 GLM": {
+      "name": "智谱 GLM",
+      "url": "https://open.bigmodel.cn",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://open.bigmodel.cn",
+        "response_time_ms": 1187.9191398620605,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Tailscale": {
-      "status": "active",
-      "response_time_ms": 183.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:37Z"
+    "月之暗面 Moonshot": {
+      "name": "月之暗面 Moonshot",
+      "url": "https://platform.moonshot.cn",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://platform.kimi.com/",
+        "response_time_ms": 2155.6432247161865,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
-    "Weights & Biases": {
-      "status": "active",
-      "response_time_ms": 700.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:37Z"
-    },
-    "MongoDB Atlas": {
-      "status": "active",
-      "response_time_ms": 992.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:37Z"
-    },
-    "Colab Enterprise": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "error": "HTTP 404",
-      "checked_at": "2026-07-13T08:42:37Z"
-    },
-    "Visual Studio Code": {
-      "status": "active",
-      "response_time_ms": 1386.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:37Z"
-    },
-    "阶跃星辰 StepFun": {
-      "status": "active",
-      "response_time_ms": 5815.0,
-      "error": null,
-      "checked_at": "2026-07-13T08:42:39Z"
+    "阿里巴巴 DashScope": {
+      "name": "阿里巴巴 DashScope",
+      "url": "https://dashscope.console.aliyun.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://account.aliyun.com/login/login.htm?oauth_callback=https%3A%2F%2Fdashscope.console.aliyun.com%2F&clearRedirectCookie=1&lang=zh",
+        "response_time_ms": 1560.0850582122803,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     },
     "字节跳动火山引擎": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "error": "The read operation timed out",
-      "checked_at": "2026-07-13T08:42:43Z"
+      "name": "字节跳动火山引擎",
+      "url": "https://www.volcengine.com/product/doubao",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.volcengine.com/product/doubao",
+        "response_time_ms": 1024.5335102081299,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "百度千帆": {
+      "name": "百度千帆",
+      "url": "https://qianfan.baidubce.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 404,
+        "final_url": "https://qianfan.baidubce.com",
+        "response_time_ms": null,
+        "error": null,
+        "evidence": "urllib 404"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "腾讯混元": {
+      "name": "腾讯混元",
+      "url": "https://cloud.tencent.com/product/hunyuan",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://cloud.tencent.com/product/tclm",
+        "response_time_ms": 1249.1512298583984,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "讯飞星火": {
+      "name": "讯飞星火",
+      "url": "https://xinghuo.xfyun.cn",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://xinghuo.xfyun.cn",
+        "response_time_ms": 1273.2608318328857,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "MiniMax": {
+      "name": "MiniMax",
+      "url": "https://www.minimaxi.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.minimaxi.com",
+        "response_time_ms": 1315.4003620147705,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "零一万物 Yi": {
+      "name": "零一万物 Yi",
+      "url": "https://platform.01.ai",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://platform.01.ai",
+        "response_time_ms": 272.815465927124,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "百川智能": {
+      "name": "百川智能",
+      "url": "https://platform.baichuan-ai.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://platform.baichuan-ai.com/homePage",
+        "response_time_ms": 1834.817886352539,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "阶跃星辰 StepFun": {
+      "name": "阶跃星辰 StepFun",
+      "url": "https://platform.stepfun.com",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://platform.stepfun.com",
+        "response_time_ms": 6111.510515213013,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "AWS Bedrock": {
+      "name": "AWS Bedrock",
+      "url": "https://aws.amazon.com/bedrock",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://aws.amazon.com/bedrock/",
+        "response_time_ms": 87.44955062866211,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Azure AI": {
+      "name": "Azure AI",
+      "url": "https://azure.microsoft.com/products/ai-services",
+      "category_id": "llm-api",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://azure.microsoft.com/en-us/products/ai-foundry/tools",
+        "response_time_ms": 17116.76549911499,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Ollama": {
+      "name": "Ollama",
+      "url": "https://ollama.com",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://ollama.com",
+        "response_time_ms": 120.35274505615234,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "llama.cpp": {
+      "name": "llama.cpp",
+      "url": "https://github.com/ggerganov/llama.cpp",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com/ggml-org/llama.cpp",
+        "response_time_ms": 696.6631412506104,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "vLLM": {
+      "name": "vLLM",
+      "url": "https://github.com/vllm-project/vllm",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com/vllm-project/vllm",
+        "response_time_ms": 576.2991905212402,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "LocalAI": {
+      "name": "LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com/mudler/LocalAI",
+        "response_time_ms": 747.1911907196045,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "LM Studio": {
+      "name": "LM Studio",
+      "url": "https://lmstudio.ai",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://lmstudio.ai",
+        "response_time_ms": 269.9925899505615,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "GPT4All": {
+      "name": "GPT4All",
+      "url": "https://gpt4all.io",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.nomic.ai/gpt4all",
+        "response_time_ms": 299.96442794799805,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Jan": {
+      "name": "Jan",
+      "url": "https://jan.ai",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.jan.ai/",
+        "response_time_ms": 154.45446968078613,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "KoboldCPP": {
+      "name": "KoboldCPP",
+      "url": "https://github.com/LostRuins/koboldcpp",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com/LostRuins/koboldcpp",
+        "response_time_ms": 512.8178596496582,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "text-generation-webui": {
+      "name": "text-generation-webui",
+      "url": "https://github.com/oobabooga/text-generation-webui",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com/oobabooga/textgen",
+        "response_time_ms": 620.6302642822266,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Open WebUI": {
+      "name": "Open WebUI",
+      "url": "https://github.com/open-webui/open-webui",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com/open-webui/open-webui",
+        "response_time_ms": 613.8181686401367,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "ComfyUI": {
+      "name": "ComfyUI",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com/Comfy-Org/ComfyUI",
+        "response_time_ms": 833.0159187316895,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Llamafile": {
+      "name": "Llamafile",
+      "url": "https://github.com/Mozilla-Ocho/llamafile",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com/mozilla-ai/llamafile",
+        "response_time_ms": 778.1407833099365,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "TabbyML": {
+      "name": "TabbyML",
+      "url": "https://github.com/TabbyML/tabby",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com/TabbyML/tabby",
+        "response_time_ms": 703.0308246612549,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Aphrodite Engine": {
+      "name": "Aphrodite Engine",
+      "url": "https://github.com/aphrodite-engine/aphrodite",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 404,
+        "final_url": "https://github.com/aphrodite-engine/aphrodite",
+        "response_time_ms": null,
+        "error": null,
+        "evidence": "urllib 404"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "ExLlamaV2": {
+      "name": "ExLlamaV2",
+      "url": "https://github.com/turboderp/exllamav2",
+      "category_id": "local-llm",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com/turboderp-org/exllamav2",
+        "response_time_ms": 764.4922733306885,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Oracle Cloud Free Tier": {
+      "name": "Oracle Cloud Free Tier",
+      "url": "https://www.oracle.com/cloud/free/",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.oracle.com/cloud/free/",
+        "response_time_ms": 86.35115623474121,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "GitHub Codespaces": {
+      "name": "GitHub Codespaces",
+      "url": "https://github.com/features/codespaces",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com/features/codespaces",
+        "response_time_ms": 250.3030300140381,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Replit": {
+      "name": "Replit",
+      "url": "https://replit.com",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://replit.com",
+        "response_time_ms": 44.31915283203125,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Google Cloud Shell": {
+      "name": "Google Cloud Shell",
+      "url": "https://shell.cloud.google.com",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fshell.cloud.google.com%2F&dsh=S789735164%3A1784288672779548&followup=https%3A%2F%2Fshell.cloud.google.com%2F&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxvNzn5EjgCFjCeq5Ysgy2OPl-mSoEcYW1FaZLQeC5TBPPJnKmUXwccAWFkTtJZuYyEnsFnvcA",
+        "response_time_ms": 696.9432830810547,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "AWS Free Tier": {
+      "name": "AWS Free Tier",
+      "url": "https://aws.amazon.com/free/",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://aws.amazon.com/free/",
+        "response_time_ms": 48.635005950927734,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Google Cloud Free Tier": {
+      "name": "Google Cloud Free Tier",
+      "url": "https://cloud.google.com/free/",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://cloud.google.com/free",
+        "response_time_ms": 285.04252433776855,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Azure Free Account": {
+      "name": "Azure Free Account",
+      "url": "https://azure.microsoft.com/free/",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount",
+        "response_time_ms": 19215.614795684814,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Fly.io": {
+      "name": "Fly.io",
+      "url": "https://fly.io",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://fly.io",
+        "response_time_ms": 54.86416816711426,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Railway": {
+      "name": "Railway",
+      "url": "https://railway.app",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://railway.com/",
+        "response_time_ms": 85.30187606811523,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Render": {
+      "name": "Render",
+      "url": "https://render.com",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://render.com",
+        "response_time_ms": 156.7378044128418,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Deno Deploy": {
+      "name": "Deno Deploy",
+      "url": "https://deno.com/deploy",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://deno.com/deploy",
+        "response_time_ms": 242.04468727111816,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Koyeb": {
+      "name": "Koyeb",
+      "url": "https://www.koyeb.com",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.koyeb.com",
+        "response_time_ms": 338.41753005981445,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Northflank": {
+      "name": "Northflank",
+      "url": "https://northflank.com",
+      "category_id": "vps",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://northflank.com",
+        "response_time_ms": 167.69695281982422,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "GitHub": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://github.com",
+        "response_time_ms": 71.6094970703125,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Visual Studio Code": {
+      "name": "Visual Studio Code",
+      "url": "https://code.visualstudio.com",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://code.visualstudio.com",
+        "response_time_ms": 1484.0419292449951,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "PyCharm Community": {
+      "name": "PyCharm Community",
+      "url": "https://www.jetbrains.com/pycharm/",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.jetbrains.com/pycharm/",
+        "response_time_ms": 54.75640296936035,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Google BigQuery Sandbox": {
+      "name": "Google BigQuery Sandbox",
+      "url": "https://cloud.google.com/bigquery",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://cloud.google.com/bigquery",
+        "response_time_ms": 148.48613739013672,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "MongoDB Atlas": {
+      "name": "MongoDB Atlas",
+      "url": "https://www.mongodb.com/atlas",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.mongodb.com/products/platform",
+        "response_time_ms": 1112.5974655151367,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Supabase": {
+      "name": "Supabase",
+      "url": "https://supabase.com",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://supabase.com",
+        "response_time_ms": 85.21318435668945,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Vercel": {
+      "name": "Vercel",
+      "url": "https://vercel.com",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://vercel.com",
+        "response_time_ms": 297.6868152618408,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Netlify": {
+      "name": "Netlify",
+      "url": "https://www.netlify.com",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.netlify.com",
+        "response_time_ms": 26.43871307373047,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Hugging Face Hub": {
+      "name": "Hugging Face Hub",
+      "url": "https://huggingface.co",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://huggingface.co",
+        "response_time_ms": 11.659860610961914,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Weights & Biases": {
+      "name": "Weights & Biases",
+      "url": "https://wandb.ai",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://wandb.ai",
+        "response_time_ms": 174.46112632751465,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "DagsHub": {
+      "name": "DagsHub",
+      "url": "https://dagshub.com",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://dagshub.com",
+        "response_time_ms": 36.75723075866699,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "GitLab": {
+      "name": "GitLab",
+      "url": "https://gitlab.com",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://about.gitlab.com/",
+        "response_time_ms": 235.07165908813477,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Cloudflare Workers": {
+      "name": "Cloudflare Workers",
+      "url": "https://workers.cloudflare.com",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://www.cloudflare.com/products/workers/",
+        "response_time_ms": 134.96065139770508,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "PlanetScale": {
+      "name": "PlanetScale",
+      "url": "https://planetscale.com",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://planetscale.com",
+        "response_time_ms": 96.43006324768066,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Neon Postgres": {
+      "name": "Neon Postgres",
+      "url": "https://neon.tech",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://neon.com/",
+        "response_time_ms": 185.74810028076172,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Upstash Redis": {
+      "name": "Upstash Redis",
+      "url": "https://upstash.com",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://upstash.com",
+        "response_time_ms": 73.47345352172852,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Sentry": {
+      "name": "Sentry",
+      "url": "https://sentry.io",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://sentry.io/welcome/",
+        "response_time_ms": 199.64218139648438,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Tailscale": {
+      "name": "Tailscale",
+      "url": "https://tailscale.com",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 200,
+        "final_url": "https://tailscale.com",
+        "response_time_ms": 112.30587959289551,
+        "error": null,
+        "evidence": "urllib 200"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
+    },
+    "Colab Enterprise": {
+      "name": "Colab Enterprise",
+      "url": "https://cloud.google.com/vertex-ai/docs/colab-enterprise",
+      "category_id": "dev-tools",
+      "domain": {
+        "status": "up",
+        "http_code": 404,
+        "final_url": "https://cloud.google.com/vertex-ai/docs/colab-enterprise",
+        "response_time_ms": null,
+        "error": null,
+        "evidence": "urllib 404"
+      },
+      "free_tier": {
+        "status": "unknown",
+        "confidence": 0.0,
+        "free_tier_present": null,
+        "needs_credit_card": null,
+        "paywall_detected": null,
+        "notes": "LLM disabled (cheap mode)",
+        "screenshot_path": null
+      },
+      "status": "unknown",
+      "checked_at": "2026-07-17T11:44:52Z"
     }
   }
 }
