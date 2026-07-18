@@ -1,0 +1,25 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - run: python -m unittest discover
+      - name: Verify generated Pages data
+        run: |
+          python scripts/yaml_to_json.py
+          python scripts/build_docs_data.py
+          git diff --exit-code -- data/resources.json docs/resources.json docs/status.json
