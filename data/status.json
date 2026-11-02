@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T11:43:39Z",
+  "generated_at": "2026-11-02T13:59:41Z",
   "total": 97,
   "alive": 92,
   "dead": 5,
@@ -7,682 +7,682 @@
   "results": {
     "Lightning AI Studio": {
       "status": "active",
-      "response_time_ms": 226,
+      "response_time_ms": 189,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Modal": {
-      "status": "active",
-      "response_time_ms": 284,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Google Colab Pro+": {
       "status": "active",
-      "response_time_ms": 124,
+      "response_time_ms": 134,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "Google Colab": {
+    "Modal": {
       "status": "active",
-      "response_time_ms": 121,
+      "response_time_ms": 352,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Google Colab Pro": {
-      "status": "active",
-      "response_time_ms": 133,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "TPU Research Cloud": {
-      "status": "active",
-      "response_time_ms": 142,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Vast.ai": {
       "status": "active",
-      "response_time_ms": 226,
+      "response_time_ms": 166,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Hugging Face Spaces": {
       "status": "active",
-      "response_time_ms": 455,
+      "response_time_ms": 381,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "RunPod Community Cloud": {
+    "TPU Research Cloud": {
       "status": "active",
-      "response_time_ms": 477,
+      "response_time_ms": 154,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Google Colab": {
+      "status": "active",
+      "response_time_ms": 318,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Google Cloud Vertex AI": {
       "status": "active",
-      "response_time_ms": 484,
+      "response_time_ms": 516,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Google Colab Pro": {
+      "status": "active",
+      "response_time_ms": 182,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "RunPod Community Cloud": {
+      "status": "active",
+      "response_time_ms": 625,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Noteable": {
       "status": "active",
-      "response_time_ms": 194,
+      "response_time_ms": 166,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "OpenRouter": {
       "status": "active",
-      "response_time_ms": 183,
+      "response_time_ms": 112,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Kaggle Notebooks": {
       "status": "active",
-      "response_time_ms": 364,
+      "response_time_ms": 341,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Lambda Cloud": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "failure_count": 16,
-      "error": "HEAD HTTP 404; GET HTTP 404",
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Deepnote": {
-      "status": "active",
-      "response_time_ms": 291,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "AWS Activate / AWS Educate": {
       "status": "active",
-      "response_time_ms": 461,
+      "response_time_ms": 345,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "OpenAI": {
       "status": "active",
       "response_time_ms": 0,
       "failure_count": 0,
       "error": "HTTP 403 (reachable, access restricted)",
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "Saturn Cloud": {
+    "Deepnote": {
       "status": "active",
-      "response_time_ms": 391,
+      "response_time_ms": 262,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Lambda Cloud": {
+      "status": "dead",
+      "response_time_ms": 0,
+      "failure_count": 17,
+      "error": "HEAD HTTP 404; GET HTTP 404",
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Cohere": {
       "status": "active",
-      "response_time_ms": 202,
+      "response_time_ms": 161,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Google Gemini": {
+      "status": "active",
+      "response_time_ms": 279,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Saturn Cloud": {
+      "status": "active",
+      "response_time_ms": 429,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Azure for Students / Azure Free Account": {
       "status": "active",
-      "response_time_ms": 685,
+      "response_time_ms": 651,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Groq": {
+      "status": "active",
+      "response_time_ms": 280,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Hugging Face Inference API": {
+      "status": "active",
+      "response_time_ms": 279,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "DeepSeek": {
       "status": "active",
       "response_time_ms": 0,
       "failure_count": 0,
       "error": "HTTP 403 (reachable, access restricted)",
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "Hugging Face Inference API": {
+    "Gradient by Paperspace": {
       "status": "active",
-      "response_time_ms": 329,
+      "response_time_ms": 688,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Google Gemini": {
-      "status": "active",
-      "response_time_ms": 481,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Groq": {
-      "status": "active",
-      "response_time_ms": 389,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Fireworks AI": {
       "status": "active",
-      "response_time_ms": 313,
+      "response_time_ms": 320,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Together AI": {
-      "status": "active",
-      "response_time_ms": 484,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Deepinfra": {
       "status": "active",
-      "response_time_ms": 178,
+      "response_time_ms": 157,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "SambaNova": {
-      "status": "active",
-      "response_time_ms": 114,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Cerebras": {
       "status": "active",
       "response_time_ms": 176,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Together AI": {
+      "status": "active",
+      "response_time_ms": 587,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "AnyScale": {
       "status": "active",
-      "response_time_ms": 307,
+      "response_time_ms": 383,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Perplexity": {
-      "status": "active",
-      "response_time_ms": 469,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Gradient by Paperspace": {
-      "status": "active",
-      "response_time_ms": 1151,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Replicate": {
-      "status": "active",
-      "response_time_ms": 424,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Novita AI": {
       "status": "active",
-      "response_time_ms": 521,
+      "response_time_ms": 288,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "智谱 GLM": {
+    "SambaNova": {
       "status": "active",
-      "response_time_ms": 632,
+      "response_time_ms": 333,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Perplexity": {
+      "status": "active",
+      "response_time_ms": 501,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Cloudflare Workers AI": {
       "status": "active",
-      "response_time_ms": 916,
+      "response_time_ms": 395,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Replicate": {
+      "status": "active",
+      "response_time_ms": 626,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "智谱 GLM": {
+      "status": "active",
+      "response_time_ms": 517,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "零一万物 Yi": {
       "status": "active",
-      "response_time_ms": 376,
+      "response_time_ms": 85,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "阿里巴巴 DashScope": {
-      "status": "active",
-      "response_time_ms": 1238,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "讯飞星火": {
       "status": "active",
-      "response_time_ms": 1100,
+      "response_time_ms": 1020,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "阿里巴巴 DashScope": {
+      "status": "active",
+      "response_time_ms": 1428,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "字节跳动火山引擎": {
       "status": "active",
-      "response_time_ms": 1496,
+      "response_time_ms": 1486,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "腾讯混元": {
-      "status": "active",
-      "response_time_ms": 1425,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "AWS Bedrock": {
       "status": "active",
-      "response_time_ms": 222,
+      "response_time_ms": 160,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Ollama": {
       "status": "active",
       "response_time_ms": 107,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Azure AI": {
-      "status": "active",
-      "response_time_ms": 368,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "vLLM": {
-      "status": "active",
-      "response_time_ms": 476,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "百度千帆": {
-      "status": "dead",
-      "response_time_ms": 0,
-      "failure_count": 16,
-      "error": "HEAD HTTP 404; GET HTTP 404",
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Silicon Flow": {
       "status": "active",
-      "response_time_ms": 2393,
+      "response_time_ms": 2262,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "llama.cpp": {
+    "Azure AI": {
       "status": "active",
-      "response_time_ms": 838,
+      "response_time_ms": 603,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "腾讯混元": {
+      "status": "active",
+      "response_time_ms": 2163,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "LM Studio": {
       "status": "active",
-      "response_time_ms": 297,
+      "response_time_ms": 234,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "LocalAI": {
+    "百川智能": {
       "status": "active",
-      "response_time_ms": 633,
+      "response_time_ms": 1996,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "Jan": {
+    "llama.cpp": {
       "status": "active",
-      "response_time_ms": 315,
+      "response_time_ms": 898,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "vLLM": {
+      "status": "active",
+      "response_time_ms": 556,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "月之暗面 Moonshot": {
       "status": "active",
-      "response_time_ms": 2697,
+      "response_time_ms": 2734,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "阶跃星辰 StepFun": {
+    "LocalAI": {
       "status": "active",
-      "response_time_ms": 1474,
+      "response_time_ms": 766,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "GPT4All": {
       "status": "active",
-      "response_time_ms": 438,
+      "response_time_ms": 396,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Jan": {
+      "status": "active",
+      "response_time_ms": 474,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "MiniMax": {
+      "status": "active",
+      "response_time_ms": 2678,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "KoboldCPP": {
       "status": "active",
-      "response_time_ms": 534,
+      "response_time_ms": 679,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Open WebUI": {
       "status": "active",
-      "response_time_ms": 516,
+      "response_time_ms": 667,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "text-generation-webui": {
+      "status": "active",
+      "response_time_ms": 789,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Aphrodite Engine": {
       "status": "dead",
       "response_time_ms": 0,
-      "failure_count": 16,
+      "failure_count": 17,
       "error": "HEAD HTTP 404; GET HTTP 404",
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "text-generation-webui": {
-      "status": "active",
-      "response_time_ms": 671,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Oracle Cloud Free Tier": {
       "status": "active",
-      "response_time_ms": 181,
+      "response_time_ms": 102,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Replit": {
       "status": "active",
-      "response_time_ms": 97,
+      "response_time_ms": 128,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "TabbyML": {
-      "status": "active",
-      "response_time_ms": 540,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "ComfyUI": {
-      "status": "active",
-      "response_time_ms": 698,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "百川智能": {
-      "status": "active",
-      "response_time_ms": 2089,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+    "百度千帆": {
+      "status": "dead",
+      "response_time_ms": 0,
+      "failure_count": 17,
+      "error": "HEAD HTTP 404; GET HTTP 404",
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "AWS Free Tier": {
       "status": "active",
-      "response_time_ms": 98,
+      "response_time_ms": 71,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "GitHub Codespaces": {
+    "TabbyML": {
       "status": "active",
-      "response_time_ms": 307,
+      "response_time_ms": 745,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Llamafile": {
       "status": "active",
-      "response_time_ms": 756,
+      "response_time_ms": 858,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "MiniMax": {
+    "ComfyUI": {
       "status": "active",
-      "response_time_ms": 2927,
+      "response_time_ms": 884,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Google Cloud Shell": {
-      "status": "active",
-      "response_time_ms": 334,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Render": {
-      "status": "active",
-      "response_time_ms": 186,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "ExLlamaV2": {
-      "status": "active",
-      "response_time_ms": 632,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Google Cloud Free Tier": {
-      "status": "active",
-      "response_time_ms": 386,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Fly.io": {
       "status": "active",
-      "response_time_ms": 325,
+      "response_time_ms": 82,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "Deno Deploy": {
+    "Google Cloud Shell": {
       "status": "active",
-      "response_time_ms": 229,
+      "response_time_ms": 306,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "GitHub Codespaces": {
+      "status": "active",
+      "response_time_ms": 429,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Render": {
+      "status": "active",
+      "response_time_ms": 124,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Railway": {
       "status": "active",
-      "response_time_ms": 372,
+      "response_time_ms": 260,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "GitHub": {
-      "status": "active",
-      "response_time_ms": 116,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Azure Free Account": {
       "status": "active",
-      "response_time_ms": 436,
+      "response_time_ms": 365,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Northflank": {
-      "status": "active",
-      "response_time_ms": 276,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "PyCharm Community": {
-      "status": "active",
-      "response_time_ms": 218,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Hugging Face Hub": {
-      "status": "active",
-      "response_time_ms": 54,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Supabase": {
-      "status": "active",
-      "response_time_ms": 194,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Vercel": {
       "status": "active",
       "response_time_ms": 189,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "Netlify": {
+    "GitHub": {
       "status": "active",
-      "response_time_ms": 181,
+      "response_time_ms": 176,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Deno Deploy": {
+      "status": "active",
+      "response_time_ms": 291,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Google Cloud Free Tier": {
+      "status": "active",
+      "response_time_ms": 469,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "PyCharm Community": {
+      "status": "active",
+      "response_time_ms": 112,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Koyeb": {
       "status": "active",
-      "response_time_ms": 426,
+      "response_time_ms": 348,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
-    "Google BigQuery Sandbox": {
+    "ExLlamaV2": {
       "status": "active",
-      "response_time_ms": 321,
+      "response_time_ms": 887,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Hugging Face Hub": {
+      "status": "active",
+      "response_time_ms": 34,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Supabase": {
+      "status": "active",
+      "response_time_ms": 142,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Vercel": {
+      "status": "active",
+      "response_time_ms": 127,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "DagsHub": {
       "status": "active",
-      "response_time_ms": 180,
+      "response_time_ms": 83,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "MongoDB Atlas": {
-      "status": "active",
-      "response_time_ms": 509,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Cloudflare Workers": {
-      "status": "active",
-      "response_time_ms": 267,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Upstash Redis": {
-      "status": "active",
-      "response_time_ms": 257,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "GitLab": {
-      "status": "active",
-      "response_time_ms": 337,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Neon Postgres": {
-      "status": "active",
-      "response_time_ms": 421,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Weights & Biases": {
-      "status": "active",
-      "response_time_ms": 514,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Sentry": {
-      "status": "active",
-      "response_time_ms": 317,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
-    },
-    "Tailscale": {
-      "status": "active",
-      "response_time_ms": 242,
-      "failure_count": 0,
-      "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Visual Studio Code": {
       "status": "active",
-      "response_time_ms": 852,
+      "response_time_ms": 292,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Netlify": {
+      "status": "active",
+      "response_time_ms": 158,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Google BigQuery Sandbox": {
+      "status": "active",
+      "response_time_ms": 294,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "PlanetScale": {
       "status": "active",
-      "response_time_ms": 1009,
+      "response_time_ms": 205,
       "failure_count": 0,
       "error": null,
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Upstash Redis": {
+      "status": "active",
+      "response_time_ms": 178,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "GitLab": {
+      "status": "active",
+      "response_time_ms": 313,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Cloudflare Workers": {
+      "status": "active",
+      "response_time_ms": 314,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "MongoDB Atlas": {
+      "status": "active",
+      "response_time_ms": 572,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Sentry": {
+      "status": "active",
+      "response_time_ms": 284,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Weights & Biases": {
+      "status": "active",
+      "response_time_ms": 465,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Tailscale": {
+      "status": "active",
+      "response_time_ms": 194,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "Neon Postgres": {
+      "status": "active",
+      "response_time_ms": 492,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
+    },
+    "阶跃星辰 StepFun": {
+      "status": "active",
+      "response_time_ms": 3965,
+      "failure_count": 0,
+      "error": null,
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Colab Enterprise": {
       "status": "dead",
       "response_time_ms": 0,
-      "failure_count": 16,
+      "failure_count": 17,
       "error": "HEAD HTTP 404; GET HTTP 404",
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     },
     "Mistral AI": {
       "status": "dead",
       "response_time_ms": 0,
-      "failure_count": 16,
+      "failure_count": 17,
       "error": "HEAD HTTP 307; GET HTTP 307",
-      "checked_at": "2026-10-26T11:43:39Z"
+      "checked_at": "2026-11-02T13:59:41Z"
     }
   }
 }
